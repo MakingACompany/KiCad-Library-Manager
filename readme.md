@@ -1,36 +1,5 @@
 # KiCad Custom Library Manager
 
-A standalone Python/PySide6 GUI application for organizing, managing, and health-checking custom KiCad (v6/v7/v8+) component libraries. 
-
-This tool treats a component as a unified "Asset Bundle" (Symbol, Footprint, 3D Model, Datasheet, Image), ensuring physical files stay synchronized with their KiCad symbol properties.
-
-## Features
-* 📦 **Drag-and-Drop Import:** Drop `.zip`, `.elibz` (EasyEDA), or loose `.kicad_sym`/`.kicad_mod` files directly into the UI to parse and stage them. Supports alternate footprint variations via prefix naming.
-* 🪄 **Digi-Key API Integration:** Automatically fetch metadata, part numbers, datasheets, and component photos using an MPN or Digi-Key Part Number.
-* 🏥 **Library Health Scanner:** Scans your physical hard drive and `.kicad_sym` files to detect and resolve:
-  * Duplicated parts / Merging
-  * Orphaned footprints and 3D models (files not linked to any symbol)
-  * Broken links (symbols pointing to missing files)
-  * Misplaced files (assets in the wrong category folder)
-* 🔗 **KiCad Auto-Sync:** Automatically injects your custom library directories and custom environment variables into KiCad's global `sym-lib-table` and `fp-lib-table`.
-
-## Requirements
-* Python 3.9+
-* PySide6
-
-## Getting Started
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/making-a-maker/kicad-custom-library-manager.git](https://github.com/making-a-maker/kicad-library-manager.git)
-   cd kicad-library-manager
-   
-2. **Install dependencies:**
-   ```bash
-
-   
-# KiCad Custom Library Manager
-
 A standalone GUI application for organizing, managing, and health-checking custom KiCad (v6/v7/v8/v9+) component libraries.
 
 This tool treats a component as a unified "Asset Bundle" (Symbol, Footprint, 3D Model, Datasheet, Image), ensuring physical files stay synchronized with their KiCad symbol properties.
@@ -55,14 +24,16 @@ The easiest way to use the manager is via the pre-compiled standalone executable
 
 2. Run the executable directly—no Python installation or setup required.
 
+
+
 ### Option 2: Running from Source (Python Scripts)
 
 If you wish to run the raw Python scripts or contribute to the development, follow these setup steps:
 
 1. Clone the repository:
 ```bash
-git clone [https://github.com/MakingACompany/kicad-library-manager.git](https://github.com/MakingACompany/kicad-library-manager.git)
-cd kicad-library-manager
+git clone [https://github.com/MakingACompany/KiCad-Library-Manager.git](https://github.com/MakingACompany/KiCad-Library-Manager.git)
+cd KiCad-Library-Manager
 ```
 
 2. Install dependencies:

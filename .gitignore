@@ -35,6 +35,8 @@ Thumbs.db
 # Application Specific Files
 .tmp/
 *.log
+icon.svg
+icon.png
 
 # KiCad and Application Backups
 *.bak
