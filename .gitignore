@@ -37,6 +37,7 @@ Thumbs.db
 *.log
 icon.svg
 icon.png
+KiCad_Library_Manager.zip
 
 # KiCad and Application Backups
 *.bak
