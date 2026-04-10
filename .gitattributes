@@ -1,0 +1,23 @@
+# Use LF (Line Feed)
+text=auto eol=lf
+
+# Force text files keep LF
+*.py text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+
+# Force KiCad S-Expressions keep LF
+*.kicad_sym text eol=lf
+*.kicad_mod text eol=lf
+
+# Explicit binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.zip binary
+*.elibz binary
+*.step binary
+*.stp binary
+*.wrl binary

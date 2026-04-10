@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+pycache/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# App specific logs (since your app generates logs)
+logs/
+*.log
+
+# PyInstaller folders and files
+build/
+dist/
+*.spec
+
+# IDE and Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Application Specific Files
+.tmp/
+*.log
+
+# KiCad and Application Backups
+*.bak
+.bak_
+*.bak_custom_mgr
+*.bak_custom_mgr_relocate
